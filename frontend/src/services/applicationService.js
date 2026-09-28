@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/applications";
+const API_URL = `${import.meta.env.VITE_API_URL}/api/applications`;
 
 // Apply for a job
 export const applyForJob = async (jobId) => {
